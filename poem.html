@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Khadeejah 🌹</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fcefee, #f9e0ff);
+      font-family: "Georgia", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #333;
+    }
+
+    .poem-box {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 800px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #b3005e;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+      opacity: 0;
+      animation: fadeInLine 1.5s forwards;
+    }
+
+    p:nth-child(2) { animation-delay: 1s; }
+    p:nth-child(3) { animation-delay: 2s; }
+    p:nth-child(4) { animation-delay: 3s; }
+    p:nth-child(5) { animation-delay: 4s; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInLine {
+      to { opacity: 1; }
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="poem-box">
+    <h1>For Khadeejah 🌹</h1>
+    <p>In crowded rooms, your light still shows,</p>
+    <p>A gentle heart the whole world knows.</p>
+    <p>Through smiles and words, so pure, so true,</p>
+    <p>I'm grateful, Khadeejah, I met you.</p>
+    <footer>— From someone who believes in you 🌸</footer>
+  </div>
+</body>
+</html>
